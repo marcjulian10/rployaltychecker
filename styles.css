@@ -1,7 +1,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
-  width: 320px;
+  width: 420px;
+  height: 50px;
   color: #333;
 }
 h1 { font-size: 18px; margin-bottom: 15px; text-align: center; color: #2c3e50; }
@@ -54,7 +55,7 @@ select, button {
 #progressBar {
   height: 100%;
   width: 0%;
-  background-color: #664caf;
+  background-color: #2a62fd;
   text-align: center;
   line-height: 25px;
   color: #110d0d;
@@ -65,7 +66,7 @@ select, button {
 .low-score { background-color: #ef5350 !important; }
 .mid-score { background-color: #ffa726 !important; }
  
-#errorLog { margin-top: 15px; max-height: 300px; overflow-y: auto; }
+#errorLog { margin-top: 15px; overflow-y: auto; }
  
 .error-item {
   background-color: #ffebee;
