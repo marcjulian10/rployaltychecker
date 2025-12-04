@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loft Loyalty Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Loft Loyalty Checker</h1>
+   
+    <div class="control-group">
+        <label for="categorySelect">Select Tier:</label>
+        <select id="categorySelect">
+            <option value="free">Free</option>
+            <option value="plus">Plus</option>
+            <option value="community_rewards">Community Rewards</option>
+        </select>
+    </div>
+   
+    <div class="checkbox-container">
+        <label>
+            <input type="checkbox" id="incentiveBillingBox"> Custom Incentives applied?
+        </label>
+    </div>
+ 
+    <div class="button-group">
+        <button id="checkBtn" class="blue-btn">Scan Page</button>
+        <button id="exportBtn">Export CSV</button>
+    </div>
+ 
+    <div id="progressContainer" style="display:none;">
+        <div id="progressBar">0%</div>
+    </div>
+ 
+    <div id="errorLog"></div>
+ 
+    <script src="popup.js"></script>
+</body>
+</html>

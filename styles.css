@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  width: 320px;
+  color: #333;
+}
+h1 { font-size: 18px; margin-bottom: 15px; text-align: center; color: #2c3e50; }
+ 
+select, button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+ 
+.blue-btn {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.blue-btn:hover { background-color: #0b7dda; }
+ 
+/* Checkbox Style */
+.checkbox-container {
+  margin: 10px 0;
+  font-size: 13px;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+}
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.checkbox-container input {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+ 
+#progressContainer {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-top: 15px;
+  overflow: hidden;
+  height: 25px;
+}
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background-color: #664caf;
+  text-align: center;
+  line-height: 25px;
+  color: #110d0d;
+  font-size: 11px;
+  font-weight: bold;
+  transition: width 0.4s ease;
+}
+.low-score { background-color: #ef5350 !important; }
+.mid-score { background-color: #ffa726 !important; }
+ 
+#errorLog { margin-top: 15px; max-height: 300px; overflow-y: auto; }
+ 
+.error-item {
+  background-color: #ffebee;
+  border-left: 4px solid #ef5350;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  border-radius: 0 4px 4px 0;
+}
+.error-item.info-item {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196F3;
+}
+.error-title { font-weight: bold; display: block; margin-bottom: 3px; font-size:13px;}
+.error-detail { color: #555; }
