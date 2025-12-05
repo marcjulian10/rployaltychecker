@@ -1,7 +1,7 @@
-Modules & Features Checker – Microsoft Edge Extension
+AA Checker – Microsoft Edge Extension
 
 📌 Overview
-This extension helps QA teams verify module and feature settings in Loft Living. It compares expected vs actual configurations, highlights mismatches, and allows quick navigation to problematic elements.
+This extension helps QA teams verify module and feature settings. It compares expected vs actual configurations, highlights mismatches, and allows quick navigation to problematic elements.
 
 ✅ Features
     Scan reference site and saved expected settings.
@@ -13,4 +13,5 @@ This extension helps QA teams verify module and feature settings in Loft Living.
 HOW TO TEST
 
 1. After download, export the file to a folder.
+
 2. Open browser of your choice
